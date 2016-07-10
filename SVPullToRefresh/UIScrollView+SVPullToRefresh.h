@@ -17,15 +17,22 @@
 
 typedef NS_ENUM(NSUInteger, SVPullToRefreshPosition) {
     SVPullToRefreshPositionTop = 0,
-    SVPullToRefreshPositionBottom,
+    SVPullToRefreshPositionBottom = 1,
+    SVPullToRefreshPositionLeft = 2,
+    SVPullToRefreshPositionRight = 3
 };
 
 - (void)addPullToRefreshWithActionHandler:(void (^)(void))actionHandler;
 - (void)addPullToRefreshWithActionHandler:(void (^)(void))actionHandler position:(SVPullToRefreshPosition)position;
-- (void)triggerPullToRefresh;
+- (void)triggerPullToRefresh; //only apply for the first SVPullToRefreshView in the pullToRefreshViews array
+- (void)triggerPullToRefreshAtPosition:(SVPullToRefreshPosition)position;
 
-@property (nonatomic, strong, readonly) SVPullToRefreshView *pullToRefreshView;
+@property (nonatomic, strong, readonly) SVPullToRefreshView *pullToRefreshView; //get the first SVPullToRefreshView in the pullToRefreshViews array
+@property (nonatomic, strong, readonly) NSArray *pullToRefreshViews;
 @property (nonatomic, assign) BOOL showsPullToRefresh;
+
+//getter
+- (SVPullToRefreshView*)pullToRefreshViewAtPosition:(SVPullToRefreshPosition)position;
 
 @end
 
@@ -55,6 +62,8 @@ typedef NS_ENUM(NSUInteger, SVPullToRefreshState) {
 
 - (void)startAnimating;
 - (void)stopAnimating;
+
++ (CGRect)rectForRefreshViewAtPosition:(SVPullToRefreshPosition)position scrollView:(UIScrollView*)scrollView;
 
 // deprecated; use setSubtitle:forState: instead
 @property (nonatomic, strong, readonly) UILabel *dateLabel DEPRECATED_ATTRIBUTE;
