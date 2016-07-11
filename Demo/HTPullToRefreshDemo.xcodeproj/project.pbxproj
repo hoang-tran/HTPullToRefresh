@@ -19,7 +19,7 @@
 		F39ACD141D326C200095F4F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39ACD131D326C200095F4F3 /* CoreGraphics.framework */; };
 		F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD191D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m */; };
 		F39ACD1D1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD1C1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m */; };
-		F39ACD1F1D326CF20095F4F3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD1E1D326CF20095F4F3 /* README.md */; };
+		F39ACD1F1D326CF20095F4F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F39ACD1E1D326CF20095F4F3 /* README.md */; };
 		F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */; };
 		F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */; };
 /* End PBXBuildFile section */
@@ -195,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39ACD1F1D326CF20095F4F3 /* README.md in Resources */,
 				F39ACD061D326BB00095F4F3 /* LaunchScreen.storyboard in Resources */,
 				F39ACD031D326BB00095F4F3 /* Assets.xcassets in Resources */,
 				F39ACD011D326BB00095F4F3 /* Main.storyboard in Resources */,
@@ -208,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39ACD1F1D326CF20095F4F3 /* README.md in Sources */,
 				F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				F39ACCFE1D326BB00095F4F3 /* HTViewController.m in Sources */,
 				F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */,
