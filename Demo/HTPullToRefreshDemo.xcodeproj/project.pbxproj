@@ -22,6 +22,7 @@
 		F39ACD1F1D326CF20095F4F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F39ACD1E1D326CF20095F4F3 /* README.md */; };
 		F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */; };
 		F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */; };
+		F39ACD281D33E0590095F4F3 /* NSString+HTPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD271D33E0590095F4F3 /* NSString+HTPullToRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalViewController.m; sourceTree = "<group>"; };
 		F39ACD231D33D5130095F4F3 /* HorizontalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalViewController.h; sourceTree = "<group>"; };
 		F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalViewController.m; sourceTree = "<group>"; };
+		F39ACD261D33E0590095F4F3 /* NSString+HTPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTPullToRefresh.h"; sourceTree = "<group>"; };
+		F39ACD271D33E0590095F4F3 /* NSString+HTPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTPullToRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				F39ACD1C1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m */,
 				F39ACD181D326C870095F4F3 /* UIScrollView+SVPullToRefresh.h */,
 				F39ACD191D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m */,
+				F39ACD261D33E0590095F4F3 /* NSString+HTPullToRefresh.h */,
+				F39ACD271D33E0590095F4F3 /* NSString+HTPullToRefresh.m */,
 			);
 			name = SVPullToRefresh;
 			path = ../SVPullToRefresh;
@@ -212,6 +217,7 @@
 				F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				F39ACCFE1D326BB00095F4F3 /* HTViewController.m in Sources */,
 				F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */,
+				F39ACD281D33E0590095F4F3 /* NSString+HTPullToRefresh.m in Sources */,
 				F39ACCFB1D326BB00095F4F3 /* AppDelegate.m in Sources */,
 				F39ACCF81D326BB00095F4F3 /* main.m in Sources */,
 				F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */,
