@@ -20,6 +20,8 @@
 		F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD191D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m */; };
 		F39ACD1D1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD1C1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m */; };
 		F39ACD1F1D326CF20095F4F3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD1E1D326CF20095F4F3 /* README.md */; };
+		F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */; };
+		F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,10 @@
 		F39ACD1B1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
 		F39ACD1C1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
 		F39ACD1E1D326CF20095F4F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F39ACD201D33D4FB0095F4F3 /* VerticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalViewController.h; sourceTree = "<group>"; };
+		F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalViewController.m; sourceTree = "<group>"; };
+		F39ACD231D33D5130095F4F3 /* HorizontalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalViewController.h; sourceTree = "<group>"; };
+		F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				F39ACCFA1D326BB00095F4F3 /* AppDelegate.m */,
 				F39ACCFC1D326BB00095F4F3 /* HTViewController.h */,
 				F39ACCFD1D326BB00095F4F3 /* HTViewController.m */,
+				F39ACD201D33D4FB0095F4F3 /* VerticalViewController.h */,
+				F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */,
+				F39ACD231D33D5130095F4F3 /* HorizontalViewController.h */,
+				F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */,
 				F39ACCFF1D326BB00095F4F3 /* Main.storyboard */,
 				F39ACCF61D326BB00095F4F3 /* Supporting Files */,
 			);
@@ -201,8 +211,10 @@
 				F39ACD1F1D326CF20095F4F3 /* README.md in Sources */,
 				F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				F39ACCFE1D326BB00095F4F3 /* HTViewController.m in Sources */,
+				F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */,
 				F39ACCFB1D326BB00095F4F3 /* AppDelegate.m in Sources */,
 				F39ACCF81D326BB00095F4F3 /* main.m in Sources */,
+				F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */,
 				F39ACD1D1D326CD80095F4F3 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
