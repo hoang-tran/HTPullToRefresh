@@ -23,6 +23,8 @@
 		F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD211D33D4FB0095F4F3 /* VerticalViewController.m */; };
 		F39ACD251D33D5130095F4F3 /* HorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */; };
 		F39ACD281D33E0590095F4F3 /* NSString+HTPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD271D33E0590095F4F3 /* NSString+HTPullToRefresh.m */; };
+		F39ACD2B1D351D170095F4F3 /* SquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F39ACD2A1D351D170095F4F3 /* SquareCell.m */; };
+		F39ACD2D1D351D2B0095F4F3 /* SquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39ACD2C1D351D2B0095F4F3 /* SquareCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalViewController.m; sourceTree = "<group>"; };
 		F39ACD261D33E0590095F4F3 /* NSString+HTPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTPullToRefresh.h"; sourceTree = "<group>"; };
 		F39ACD271D33E0590095F4F3 /* NSString+HTPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTPullToRefresh.m"; sourceTree = "<group>"; };
+		F39ACD291D351D170095F4F3 /* SquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareCell.h; sourceTree = "<group>"; };
+		F39ACD2A1D351D170095F4F3 /* SquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareCell.m; sourceTree = "<group>"; };
+		F39ACD2C1D351D2B0095F4F3 /* SquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +105,9 @@
 				F39ACD231D33D5130095F4F3 /* HorizontalViewController.h */,
 				F39ACD241D33D5130095F4F3 /* HorizontalViewController.m */,
 				F39ACCFF1D326BB00095F4F3 /* Main.storyboard */,
+				F39ACD291D351D170095F4F3 /* SquareCell.h */,
+				F39ACD2A1D351D170095F4F3 /* SquareCell.m */,
+				F39ACD2C1D351D2B0095F4F3 /* SquareCell.xib */,
 				F39ACCF61D326BB00095F4F3 /* Supporting Files */,
 			);
 			name = Demo;
@@ -204,6 +212,7 @@
 				F39ACD061D326BB00095F4F3 /* LaunchScreen.storyboard in Resources */,
 				F39ACD031D326BB00095F4F3 /* Assets.xcassets in Resources */,
 				F39ACD011D326BB00095F4F3 /* Main.storyboard in Resources */,
+				F39ACD2D1D351D2B0095F4F3 /* SquareCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39ACD2B1D351D170095F4F3 /* SquareCell.m in Sources */,
 				F39ACD1A1D326C870095F4F3 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				F39ACCFE1D326BB00095F4F3 /* HTViewController.m in Sources */,
 				F39ACD221D33D4FB0095F4F3 /* VerticalViewController.m in Sources */,

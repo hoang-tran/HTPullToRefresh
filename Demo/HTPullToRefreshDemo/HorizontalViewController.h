@@ -10,4 +10,6 @@
 
 @interface HorizontalViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+
 @end
