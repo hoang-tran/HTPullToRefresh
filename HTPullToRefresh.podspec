@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Give multiple pull-to-refreshes to any UIScrollView (both vertically and/or horizontally) with minial setup'
   s.homepage = 'https://github.com/hoang-tran/HTPullToRefresh'
   s.author   = { 'Hoang Tran' => 'hoangtx.master@gmail.com' }
-  s.source   = { :git => 'https://github.com/hoang-tran/HTPullToRefresh', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/hoang-tran/HTPullToRefresh.git', :tag => s.version.to_s }
 
   s.description = 'HTPullToRefresh allows you to easily add multiple pull-to-refreshes ' \
                   'to your UIScrollView (both vertically and/or horizontally) with minimal setup'
