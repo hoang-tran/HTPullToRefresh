@@ -53,7 +53,7 @@ NSString *kVerticalCellReuseID = @"kVerticalCellReuseID";
     __weak VerticalViewController *weakSelf = self;
     NSInteger minValue = [[dataSource firstObject] integerValue];
 
-    int64_t delayInSeconds = 2.0;
+    int64_t delayInSeconds = 1.0;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         [weakSelf.tableView beginUpdates];
