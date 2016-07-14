@@ -1,7 +1,4 @@
-This is a fork repo, because [the orignal one](https://github.com/samvermette/SVPullToRefresh) is not active anymore.
-===
-
-## New features:
+## This is a fork from the famous [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh) pod with 2 additional functionalities:
 - [x] Can add multiple pull-to-refresh views into one single UIScrollView
 - [x] Support pull Left/Right to refresh
 
