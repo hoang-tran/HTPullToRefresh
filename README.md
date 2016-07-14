@@ -1,13 +1,11 @@
 This is a fork repo, because [the orignal one](https://github.com/samvermette/SVPullToRefresh) is not active anymore.
 ===
 
-![Vertical](https://media.giphy.com/media/l46CbE0xUpHQXdx1S/giphy.gif)
-
-![Horizontal](https://media.giphy.com/media/26BRx2KZGqMoYHYM8/giphy.gif)
-
 ## New features:
 - [x] Can add multiple pull-to-refresh views into one single UIScrollView
 - [x] Support pull Left/Right to refresh
+
+![Vertical](https://media.giphy.com/media/l46CbE0xUpHQXdx1S/giphy.gif)        ![Horizontal](https://media.giphy.com/media/26BRx2KZGqMoYHYM8/giphy.gif)
 
 ## Installation
 
