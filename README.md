@@ -1,6 +1,6 @@
 ## This is a fork from the famous [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh) pod with 2 additional functionalities:
 - [x] Can add multiple pull-to-refresh views into one single UIScrollView
-- [x] Support pull Left/Right to refresh
+- [x] Support both vertical and horizontal pull to refresh
 
 ![Vertical](https://media.giphy.com/media/l46CbE0xUpHQXdx1S/giphy.gif)        ![Horizontal](https://media.giphy.com/media/26BRx2KZGqMoYHYM8/giphy.gif)
 
